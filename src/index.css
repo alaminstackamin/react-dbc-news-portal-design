@@ -11,3 +11,14 @@ body{
     --tw-text-opacity: 1;
     color: rgb(17 24 39/var(--tw-text-opacity));
 }
+
+
+.fs-sm{
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.fs-xs {
+    font-size: .75rem;
+    line-height: 1rem;
+}

@@ -11,7 +11,7 @@ function CardDefault(props) {
                 <div>
                     <img src={img} className='card-img rounded-top-2'/>
                 </div>
-                <div className='p-3 bg-white rounded-bottom-2'>
+                <div className='p-3 bg-white rounded-bottom-2 mb-2'>
                     <Time/>
                     <div className='mt-2 mb-3'>
                         <Title/>

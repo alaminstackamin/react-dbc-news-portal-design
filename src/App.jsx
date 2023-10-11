@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="row mt-5">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+        <div className="row g-2 mt-5">
+          <div className="col-12 col-md-12 col-lg-6 col-xl-6 order-1">
             <OverlayCard />
             <div className="row mt-3">
               <div className="col-12 col-md-6">
@@ -27,7 +27,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 col-xl-3 order-3 order-lg-2">
             <div className="rounded-2 bg-white">
               <LatestTitle />
               <SmallCard />
@@ -43,7 +43,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div className="col-12 col-md-6 col-lg-4 col-xl-3 order-2 order-lg-3">
             <Card />
             <Card />
             <Card />
@@ -52,7 +52,7 @@ function App() {
           </div>
         </div>
 
-        <div className="row mt-2">
+        <div className="row g-2 mt-2">
           <div className="col-12">
            <ViewLine title="বাংলাদেশ" link="#" />
           </div>
@@ -78,11 +78,11 @@ function App() {
           </div>
         </div>
 
-        <div className="row mt-2">
+        <div className="row g-2 mt-2">
           <div className="col-12 col-lg-6">
           <ViewLine title="আন্তর্জাতিক" link="#" />
 
-            <div className="row">
+            <div className="row g-2">
               <div className="col-12 col-md-6">
                 <CardDefault />
                 <Card />
@@ -111,7 +111,7 @@ function App() {
           <div className="col-12 col-lg-6">
              <ViewLine title="খেলাধুলা" link="#" />
 
-            <div className="row">
+            <div className="row g-2">
               <div className="col-12 col-md-6">
                 <CardDefault />
                 <Card />

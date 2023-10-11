@@ -1,4 +1,5 @@
 import React from 'react';
+import './Description.css';
 
 function Description(props) {
 
@@ -6,7 +7,7 @@ function Description(props) {
     const downfaul = "বাংলাদেশকে ১৩৭ রানে হারাল ইংল্যান্ড ওয়ানডে ক্রিকেটে ৩২১ রানের বেশি রান তাড়া করে জয়ের রেকর্ড নেই বাংলাদেশের। আগের রেকর্ড ভাঙা সম্ভব হলো না। বিশ্বকাপে নিজেদের দ্বিতীয় ম্যাচে";
     return (
         <div>
-            <p>{description ? description : downfaul}</p>
+            <p className='mb-0 description fs-6'>{description ? description : downfaul}</p>
         </div>
     );
 }

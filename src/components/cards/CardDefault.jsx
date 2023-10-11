@@ -13,7 +13,7 @@ function CardDefault(props) {
                 </div>
                 <div className='p-3 bg-white rounded-bottom-2'>
                     <Time/>
-                    <div>
+                    <div className='mt-2 mb-3'>
                         <Title/>
                     </div>
                     <div>

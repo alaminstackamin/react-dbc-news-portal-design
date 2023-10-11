@@ -48,6 +48,10 @@ a{
     line-height: 1.25rem;
 }
 
+.border-t {
+    border-top-width: 1px;
+}
+
 .border-b{
     border-bottom-width: 1px;
 }
@@ -57,10 +61,26 @@ a{
 }
 
 .h-6 {
-    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.w-5 {
+    width: 1.25rem;
+}
+
+.h-5 {
+    height: 1.25rem;
+}
+
+.border-gray {
+   border-color: #e5e7eb;
 }
 
 .text-gray {
     --tw-text-opacity: 1;
     color: rgb(75 85 99/var(--tw-text-opacity));
+}
+
+.inset-0 {
+    inset: 0;
 }
